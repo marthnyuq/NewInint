@@ -15,5 +15,12 @@ namespace NewApp
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(textBox1.Text);
+            double c = a*a;
+            textBox1.Text = c.ToString();
+        }
     }
 }
